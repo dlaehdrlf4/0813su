@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>변수 선언</title>
+<script>
+	var i = 10
+	//자료형 확인 
+	document.write("i의 자료형 :" + typeof i + "<br />")
+	//밑에꺼는 var이 변수 선언할 때 쓰는 예약어로 자료형이 아니다 그래서 값을 주어주지 않으면 undefined가 나온다.
+	var x
+	document.write("x의 자료형 :" + typeof x + "<br />")
+	
+	var ar = ["html","gil","wow","faker"]
+	console.log(ar.toString())
+	console.log(ar)
+	console.log(ar.valueOf())
+	console.log(ar.join("&"))
+	
+	var i = 0
+	alert(i++) //출력은 i = 0 i = 1
+	alert(++i) //출력은 i = 2 i  =2;
+	
+	 
+	var result = i++ + i++ // 앞에 i 는 1= 2 고 그다음에 증가시키고 i = 3 결과 5
+	alert(result)
+	
+	//현재까지 i=4
+	
+	var x = i>0 ? 10 : i++
+	alert(i)// i =4
+</script>
+</head>
+<body>
+	
+</body>
+</html>
